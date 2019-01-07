@@ -14,3 +14,11 @@
 Route::get('/', 'HomeController@interface_init');
 
 Route::get('/login', 'LoginController@interface_init');
+
+Route::get('/analysis', 'AnalysisController@interface_init');
+
+Route::get('/manage', 'ManageController@interface_init');
+
+Route::get('/form_maker', 'FormMakerController@interface_init');
+
+Route::get('/form', 'FormController@interface_init');
