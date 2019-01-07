@@ -8,7 +8,7 @@
 
   <div class="manage-body">
     <div class="page-header">
-      <h3>僱員列表
+      <h3>部門及權限列表
         <small>Employee list</small>
         <button type="button" class="btn btn-secondary" style="float:right;display:inline"><i class="far fa-plus"></i> 新增帳號</button></h3>
       <hr>

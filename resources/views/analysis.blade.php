@@ -12,7 +12,7 @@
         <small>CSR Information Analysis</small>
         <div class="dropdown" style="display:inline;float:right">
           <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            問卷選擇
+            CSR 問題選擇
           </a>
 
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">

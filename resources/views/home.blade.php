@@ -13,7 +13,7 @@
     <h3>CSR資訊管理
       <small>CSR Information Management</small>
       <div style="display:inline;float:right">
-        <a href="./form_maker" target="_blank"><button type="button" class="btn btn-secondary"><i class="far fa-plus"></i> 訂製問卷</button></a>
+        <a href="./form_maker" target="_blank"><button type="button" class="btn btn-secondary"><i class="far fa-plus"></i> 自定義資料</button></a>
       </div>
     </h3>
     <hr>
@@ -22,10 +22,10 @@
   <div class="" style="width:100%;">
     <ul class="nav nav-tabs" id="search-result-tab">
       <li class="nav-item">
-        <a data-toggle="tab" aria-expanded="true" class="nav-link active" href="#my-form">我的問卷</a>
+        <a data-toggle="tab" aria-expanded="true" class="nav-link active" href="#my-form">已填寫的資料</a>
       </li>
       <li class="nav-item">
-        <a data-toggle="tab" aria-expanded="false" class="nav-link" href="#form-list">問卷填寫列表</a>
+        <a data-toggle="tab" aria-expanded="false" class="nav-link" href="#form-list">需要填寫的資料</a>
       </li>
     </ul>
 

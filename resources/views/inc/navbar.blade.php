@@ -14,7 +14,7 @@
         <a class="nav-link" href="./analysis">CSR資訊分析</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./manage">員工管理</a>
+        <a class="nav-link" href="./manage">權限管理</a>
       </li>
       <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
