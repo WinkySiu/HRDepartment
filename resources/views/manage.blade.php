@@ -198,5 +198,9 @@
       line-height: 0.3;
   }
 </style>
-
+<script type="text/javascript">
+  $(document).ready(function() {
+    document.title = '部門及權限列表 Employee list';
+  });
+</script>
 @endsection

@@ -22,3 +22,5 @@ Route::get('/manage', 'ManageController@interface_init');
 Route::get('/form_maker', 'FormMakerController@interface_init');
 
 Route::get('/form', 'FormController@interface_init');
+
+Route::get('/formresult', 'FormResultController@interface_init');

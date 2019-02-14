@@ -18,23 +18,70 @@
   <hr>
   <div class="form-question">
     <div class="section">
+      <h4>1.  Staff age and gender distribution</h4>
+    </div>
+
+    <div class="question">
+      <h5>Number of Managerial (e.g. CEO, Directors, Manager)<span class="must">*</span></h5>
+      <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Female: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Number of Officer (i.e., non-managerial staff members working at head office, e.g. Secretary, HR Officer, Designer, Admin, Coordinator, etc.)<span class="must">*</span></h5>
+      <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Female: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Number of Frontline Operations (e.g. F&B waitress, courier persons, cleaners/housekeepers, drivers, etc.)<span class="must">*</span></h5>
+      <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Female: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+  <div class="form-question">
+    <div class="section">
       <h4>2.  New Employees Hires</h4>
     </div>
 
     <div class="question">
-      <h5>Number of new employees: <span class="must">*</span></h5>
-      <input type="number" name="" min="0" value="0" class＝"short-answer">
+      <h5>Number of new employees<span class="must">*</span></h5>
+      <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Female: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
     </div>
 
     <div class="question">
-      <h5>No. of males: <span class="must">*</span></h5>
-      <input type="number" name="" min="0" value="0" class＝"short-answer">
+      <h5>Age of new employee<span class="must">*</span></h5>
+      <span>Aged 40 or below: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Aged 40 or above: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+  </div>
+
+  <div class="form-question">
+    <div class="section">
+      <h4>3.  Turnover Rate</h4>
+    </div>
+
+    <div class="question">
+      <h5>No. of staff resigned during the year<span class="must">*</span></h5>
+      <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Female: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
     </div>
 
     <div class="question">
-      <h5>No. of females: <span class="must">*</span></h5>
+      <h5>Total no. of staff at the beginning of the year<span class="must">*</span></h5>
       <input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
     </div>
@@ -47,41 +94,42 @@
 
 
     <div class="question">
-      <h5>Medical and Life Insurance Scheme.<span class="must">*</span></h5>
-      <div class="">
-        <input type="radio" name="q5" class＝"short-answer"> Yes
+      <h5>Medical and Life Insurance Scheme. % of total staff cost.<span class="must">*</span></h5>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="no" checked>
+        <label class="form-check-label" for="exampleRadios1">
+          No
+        </label>
       </div>
-      <div class="">
-        <input type="radio" name="q5" class＝"short-answer"> No
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="yes">
+        <label class="form-check-label" for="exampleRadios2">
+          Yes : <span id="sliderValue">50</span>%
+        </label>
+      </div>
+      <div class="form-group">
+        <input type="range" id="sliderInput" class="form-control-range" onInput="slider1Change(this.value)" min="1" disabled>
       </div>
       <hr>
     </div>
 
-    <div class="question">
-      <h5>Medical and Life Insurance Scheme.<span class="must">*</span></h5>
-      <div class="long-answer">
-        <input type="text" name="" value="" placeholder="詳細回答">
-      </div>
-      <hr>
+  </div>
+
+  <div class="form-question">
+    <div class="section">
+      <h4>3.  Training and Educaiton</h4>
     </div>
 
     <div class="question">
-      <h5>Medical and Life Insurance Scheme.<span class="must">*</span></h5>
-      <input type="text" name="" value="" placeholder="簡短回答">
-      <hr>
+      <h5>Average hours of training per year by Position Level：<span class="must">*</span></h5>
+      <span>Managerial level: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Officer’s level: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
     </div>
 
     <div class="question">
-      <h5>Medical and Life Insurance Scheme.<span class="must">*</span></h5>
-      <div>
-        <input type="checkbox" name="" value=""> Yes
-      </div>
-      <div>
-        <input type="checkbox" name="" value=""> No
-      </div>
-      <div>
-        <input type="checkbox" name="" value=""> <input type="text" name="" value="" placeholder="其他">
-      </div>
+      <h5>Cost spent on Training and Education<span class="must">*</span></h5>
+      <input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
     </div>
   </div>
@@ -89,7 +137,7 @@
   <div class="form_confirm text-center">
     <hr>
     <div class="form_btn">
-      <button type="button" class="btn btn-success" style="margin-left:10px;margin-right:10px;">完 成</button>
+      <button type="button" id="finish-btn" class="btn btn-success" style="margin-left:10px;margin-right:10px;">完 成</button>
       <button type="button" class="btn btn-light" style="margin-left:10px;margin-right:10px;">重 設</button>
     </div>
   </div>
@@ -184,5 +232,56 @@
   $(document).ready(function() {
     document.title = 'HR Department Example';
   });
+
+  function slider1Change(val){
+    document.getElementById('sliderValue').innerHTML = val;
+  }
+
+  $(function() {
+    $("input[name = 'exampleRadios']").click(function(){
+      var value = $("input[name = 'exampleRadios']:checked").val()
+      if (value == "yes") {
+        $("#sliderInput").prop("disabled", false);
+      }
+      else {
+        $("#sliderInput").prop("disabled", true);
+      }
+    });
+  })
+
+  $("#finish-btn").click(function(){
+      window.close();
+  });
 </script>
+
 @endsection
+
+
+
+    <!-- <div class="question">
+      <h5>Medical and Life Insurance Scheme.<span class="must">*</span></h5>
+      <div class="long-answer">
+        <input type="text" name="" value="" placeholder="詳細回答">
+      </div>
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Medical and Life Insurance Scheme.<span class="must">*</span></h5>
+      <input type="text" name="" value="" placeholder="簡短回答">
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Medical and Life Insurance Scheme.<span class="must">*</span></h5>
+      <div>
+        <input type="checkbox" name="" value=""> Yes
+      </div>
+      <div>
+        <input type="checkbox" name="" value=""> No
+      </div>
+      <div>
+        <input type="checkbox" name="" value=""> <input type="text" name="" value="" placeholder="其他">
+      </div>
+      <hr>
+    </div>-->

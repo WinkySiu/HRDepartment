@@ -13,7 +13,7 @@
     <h3>CSR資訊管理
       <small>CSR Information Management</small>
       <div style="display:inline;float:right">
-        <a href="./form_maker" target="_blank"><button type="button" class="btn btn-secondary"><i class="far fa-plus"></i> 自定義資料</button></a>
+        <a href="./form_maker" target="_blank"><button type="button" class="btn btn-secondary"><i class="far fa-plus"></i> 自訂義資料</button></a>
       </div>
     </h3>
     <hr>
@@ -41,87 +41,7 @@
           <tbody>
             <tr>
               <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">Myform</a></td>
+              <td><a href="./form" target="_blank">HR Department Example</a></td>
             </tr>
           </tbody>
         </table>
@@ -137,88 +57,9 @@
           <tbody>
             <tr>
               <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
+              <td><a href="./form" target="_blank">HR Department Example</a></td>
             </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
-            <tr>
-              <td>2018/10/01</td>
-              <td><a href="./form" target="_blank">FormList</a></td>
-            </tr>
+
           </tbody>
         </table>
       </div>
@@ -264,5 +105,10 @@
 
 
 </style>
+<script type="text/javascript">
+  $(document).ready(function() {
+    document.title = 'CSR資訊管理 CSR Information Management';
+  });
+</script>
 
 @endsection
