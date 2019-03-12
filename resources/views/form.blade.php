@@ -51,6 +51,12 @@
     </div>
 
     <div class="question">
+      <h5>Number of new employees:<span class="must">*</span></h5>
+      <input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+    <div class="question">
       <h5>Number of new employees<span class="must">*</span></h5>
       <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <br>
@@ -85,16 +91,103 @@
       <input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
     </div>
+
+    <div class="question">
+      <h5>Staff turnover rate for male and female:<span class="must">*</span></h5>
+      <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Female: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Staff turnover rate for staff aged equal to or below 40 and above 40:<span class="must">*</span></h5>
+      <span>below 40: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>above 40: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
   </div>
 
   <div class="form-question">
     <div class="section">
       <h4>4.  Benefits</h4>
     </div>
-
-
     <div class="question">
-      <h5>Medical and Life Insurance Scheme. % of total staff cost.<span class="must">*</span></h5>
+      <h5>Percentage of employees receiving regular performance and career development reviews.<span class="must">*</span></h5>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="col-title" scope="col">Benefit item</th>
+            <th class="col-title" scope="col">Y/N</th>
+            <th class="col-title" scope="col">% of total staff cost.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Medical and Life Insurance Scheme</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Annual leave</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Sick Leave</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Compassionate leave</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Marriage leave</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Jury Service Leave</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Maternity leave</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Study leave</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Pension fund</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Study subsidy</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Other</th>
+            <td><input type="text" class＝"short-answer"></td>
+            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+
+
+
+    <!-- <div class="question">
+      <h5>Study subsidy. % of total staff cost.<span class="must">*</span></h5>
       <div class="form-check">
         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="no" checked>
         <label class="form-check-label" for="exampleRadios1">
@@ -111,13 +204,13 @@
         <input type="range" id="sliderInput" class="form-control-range" onInput="slider1Change(this.value)" min="1" disabled>
       </div>
       <hr>
-    </div>
+    </div> -->
 
   </div>
 
   <div class="form-question">
     <div class="section">
-      <h4>3.  Training and Educaiton</h4>
+      <h4>5.  Training and Educaiton</h4>
     </div>
 
     <div class="question">
@@ -125,6 +218,52 @@
       <span>Managerial level: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <br>
       <span>Officer’s level: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Average hours of training per year by Gender：<span class="must">*</span></h5>
+      <span>Managerial level: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <br>
+      <span>Officer’s level: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Overall average hours of training：<span class="must">*</span></h5>
+      <span>Hours: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
+      <hr>
+    </div>
+
+    <div class="question">
+      <h5>Percentage of employees receiving regular performance and career development reviews.<span class="must">*</span></h5>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="col-title" scope="col"></th>
+            <th class="col-title" scope="col">Male</th>
+            <th class="col-title" scope="col">Female</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Managerial level</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Officer</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+          <tr>
+            <th scope="row">Frontline Operations</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
     </div>
 
     <div class="question">
@@ -143,9 +282,6 @@
   </div>
 
 </div>
-
-
-
 
 <style media="screen">
   body {
@@ -225,6 +361,15 @@
 
   input[type="checkbox"], input[type="radio"] {
     margin-right: 10px;
+  }
+
+  td input {
+    margin-top: 0;
+  }
+
+  .table .col-title{
+    margin-top: 15px;
+    border-top: 0px;
   }
 
 </style>

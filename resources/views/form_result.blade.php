@@ -15,82 +15,73 @@
 
       <div class="question-body">
         <div class="question">
-          <h5>Number of Managerial (e.g. CEO, Directors, Manager)</h5>
           <div class="chart">
-            <canvas id="question1" height="100"></canvas>
+            <canvas id="question1" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>Number of Officer (i.e., non-managerial staff members working at head office, e.g. Secretary, HR Officer, Designer, Admin, Coordinator, etc.)</h5>
           <div class="chart">
-            <canvas id="question2" height="100"></canvas>
+            <canvas id="question2" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>Number of Frontline Operations (e.g. F&B waitress, courier persons, cleaners/housekeepers, drivers, etc.)</h5>
           <div class="chart">
-            <canvas id="question3" height="100"></canvas>
+            <canvas id="question3" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>Number of new employees</h5>
           <div class="chart">
-            <canvas id="question4" height="100"></canvas>
+            <canvas id="question4" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>Age of new employee</h5>
           <div class="chart">
-            <canvas id="question5" height="100"></canvas>
+            <canvas id="question5" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>No. of staff resigned during the year</h5>
           <div class="chart">
-            <canvas id="question6" height="100"></canvas>
+            <canvas id="question6" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>Total no. of staff at the beginning of the year</h5>
-          <div class="chart">
-            <canvas id="question7" height="100"></canvas>
-          </div>
-          <hr>``
-        </div>
 
-        <div class="question">
-          <h5>Medical and Life Insurance Scheme.% of total staff cost.</h5>
           <div class="chart">
-            <canvas id="question8" height="100"></canvas>
-            <canvas id="question8-1" height="100"></canvas>
+            <canvas id="question7" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>Average hours of training per year by Position Level</h5>
           <div class="chart">
-            <canvas id="question9" height="100"></canvas>
+            <canvas id="question8" height="110"></canvas>
+            <canvas id="question8-1" height="110"></canvas>
           </div>
           <hr>
         </div>
 
         <div class="question">
-          <h5>Cost spent on Training and Education</h5>
           <div class="chart">
-            <canvas id="question10" height="100"></canvas>
+            <canvas id="question9" height="110"></canvas>
+          </div>
+          <hr>
+        </div>
+
+        <div class="question">
+          <div class="chart">
+            <canvas id="question10" height="110"></canvas>
           </div>
           <hr>
         </div>
@@ -112,6 +103,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Number of Managerial (e.g. CEO, Directors, Manager)',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -128,6 +128,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Number of Officer (i.e., non-managerial staff members working at head office, e.g. Secretary, HR Officer, Designer, Admin, Coordinator, etc.)',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -144,6 +153,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Number of Frontline Operations (e.g. F&B waitress, courier persons, cleaners/housekeepers, drivers, etc.)',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -160,6 +178,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Number of new employees',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -176,6 +203,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Age of new employee',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -192,6 +228,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'No. of staff resigned during the year',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -208,6 +253,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Total no. of staff at the beginning of the year.',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -224,6 +278,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Medical and Life Insurance Scheme.% of total staff cost.',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -249,8 +312,7 @@
               ],
               borderWidth: 1
           }]
-      }
-      ,
+      },
       options: {
         legend:{
           display:false
@@ -279,6 +341,15 @@
             "rgba(54, 162, 235, 1)"
           ],
       }],
+    },
+    options: {
+      title: {
+          display: true,
+          text: 'Average hours of training per year by Position Level',
+          fontSize: 20,
+          padding: 30,
+          fontColor: '#000'
+      }
     }
   });
 
@@ -302,18 +373,30 @@
               ],
               borderWidth: 1
           }]
-      }
-      ,
+      },
       options: {
+        title: {
+            display: true,
+            text: 'Cost spent on Training and Education',
+            fontSize: 20,
+            padding: 30,
+            fontColor: '#000'
+        },
         legend:{
           display:false
         },
         scales: {
-        yAxes: [{
-          display: true,
+          yAxes: [{
+            display: true,
             ticks: {
               beginAtZero: true   // minimum value will be 0.
             }
+          }],
+          xAxes: [{
+            scaleLabel: {
+  						labelString: 'Hours',
+  						display: true,
+  					}
           }]
         }
       }
@@ -329,11 +412,11 @@
     }
 
     .question-body {
-      padding: 20px 100px 50px 100px
+      padding: 0px 100px 50px 100px
     }
 
     .question {
-      margin-bottom: 50px;
+      /* margin-bottom: 50px; */
       width: 100%;
       height: auto;
     }
