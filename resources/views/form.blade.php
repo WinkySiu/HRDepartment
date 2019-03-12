@@ -126,53 +126,143 @@
         <tbody>
           <tr>
             <th scope="row">Medical and Life Insurance Scheme</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-1" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-1')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-1" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-1')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number1" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Annual leave</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-2" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-2')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-2" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-2')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number2" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Sick Leave</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-3" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-3')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-3" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-3')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number3" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Compassionate leave</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-4" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-4')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-4" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-4')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number4" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Marriage leave</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-5" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-5')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-5" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-5')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number5" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Jury Service Leave</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-6" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-6')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-6" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-6')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number6" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Maternity leave</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-7" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-7')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-7" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-7')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number7" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Study leave</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-8" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-8')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-8" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-8')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number8" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Pension fund</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-9" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-9')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-9" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-9')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number9" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Study subsidy</th>
-            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
-            <td class="text-center"><input type="number" name="" min="1" max="100" value="0" class＝"short-answer"></td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-10" id="inlineRadio1" value="Yes" onclick="number_disable('inlineRadioOptions-10')">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions-10" id="inlineRadio2" value="No" onclick="number_disable('inlineRadioOptions-10')">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </td>
+            <td class="text-center"><input type="number" name="number10" min="1" max="100" value="0" class＝"short-answer"></td>
           </tr>
           <tr>
             <th scope="row">Other</th>
@@ -397,6 +487,19 @@
   $("#finish-btn").click(function(){
       window.close();
   });
+
+  function number_disable(name){
+    var value = $("input[name = '" + name + "']:checked").val()
+    var name_split = name.split("-");
+    if (value == "Yes") {
+      $("input[name = 'number" + name_split[1] + "']").prop("disabled", false);
+      console.log("#number" + name_split[1]);
+    }
+    else if (value == "No"){
+      $("input[name = 'number" + name_split[1] + "']").prop("disabled", true);
+      console.log("#number" + name_split[1]);
+    }
+  }
 </script>
 
 @endsection
