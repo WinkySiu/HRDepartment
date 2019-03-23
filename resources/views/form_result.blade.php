@@ -12,395 +12,320 @@
     <div class="container">
       <h3 id="title">HR Department Example</h3>
       <hr>
+      <div class="question">
+        <div class="chart">
+          <canvas id="q_1" height="110"></canvas>
+        </div>
+        <hr>
+      </div>
 
-      <div class="question-body">
-        <div class="question">
-          <div class="chart">
-            <canvas id="question1" height="110"></canvas>
-          </div>
-          <hr>
+      <div class="question">
+        <div class="chart">
+          <canvas id="q_2" height="110"></canvas>
+        </div>
+        <div class="chart">
+          <canvas id="q_2_1" height="110"></canvas>
+        </div>
+        <hr>
+      </div>
+
+      <div class="question">
+        <div class="chart">
+          <canvas id="q_3" height="110"></canvas>
+        </div>
+        <hr>
+      </div>
+
+      <div class="question">
+        <div class="chart">
+          <canvas id="q_4" height="110"></canvas>
         </div>
 
-        <div class="question">
-          <div class="chart">
-            <canvas id="question2" height="110"></canvas>
-          </div>
-          <hr>
+        <div class="chart">
+          <canvas id="q_4_1" height="110"></canvas>
         </div>
-
-        <div class="question">
-          <div class="chart">
-            <canvas id="question3" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
-        <div class="question">
-          <div class="chart">
-            <canvas id="question4" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
-        <div class="question">
-          <div class="chart">
-            <canvas id="question5" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
-        <div class="question">
-          <div class="chart">
-            <canvas id="question6" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
-        <div class="question">
-
-          <div class="chart">
-            <canvas id="question7" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
-        <div class="question">
-          <div class="chart">
-            <canvas id="question8" height="110"></canvas>
-            <canvas id="question8-1" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
-        <div class="question">
-          <div class="chart">
-            <canvas id="question9" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
-        <div class="question">
-          <div class="chart">
-            <canvas id="question10" height="110"></canvas>
-          </div>
-          <hr>
-        </div>
-
+        <hr>
       </div>
     </div>
   </body>
   <script type="text/javascript">
-  var labels1= ['Male','Female'];
-  var ctx1 = document.getElementById('question1').getContext('2d');
-  var pieChart1 = new Chart(ctx1, {
-    type: 'pie',
-    data : {
-      labels:labels1,
-      datasets: [{
-          data:[23,41],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Number of Managerial (e.g. CEO, Directors, Manager)',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
 
-  var labels2= ['Male','Female'];
-  var ctx2 = document.getElementById('question2').getContext('2d');
-  var pieChart2 = new Chart(ctx2, {
-    type: 'pie',
-    data : {
-      labels:labels2,
-      datasets: [{
-          data:[33,22],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Number of Officer (i.e., non-managerial staff members working at head office, e.g. Secretary, HR Officer, Designer, Admin, Coordinator, etc.)',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
+		var barChartData1 = {
+			labels: ['Male (By Gender)', 'Female (By Gender)', '<40 (By Age)', '>=40 (By Age)', 'Total'],
+			datasets: [{
+				label: 'Managerial level',
+				backgroundColor: "#4EDDF8",
+				data: [
+          2,2,1,3,4
+				]
+			}, {
+				label: 'Officer',
+				backgroundColor: "#E39595",
+				data: [
+          8,12,10,10,20
+				]
+			}, {
+				label: 'Frontline Operations',
+				backgroundColor: "#B4E395",
+				data: [
+          6,8,12,2,14
+				]
+			}]
+		};
 
-  var labels3= ['Male','Female'];
-  var ctx3 = document.getElementById('question3').getContext('2d');
-  var pieChart3 = new Chart(ctx3, {
-    type: 'pie',
-    data : {
-      labels:labels3,
-      datasets: [{
-          data:[44,77],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Number of Frontline Operations (e.g. F&B waitress, courier persons, cleaners/housekeepers, drivers, etc.)',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
+		var barChartData2 = {
+			labels: ['Male', 'Female', '<= aged 40', '> aged 40', 'Total'],
+			datasets: [{
+				label: '1) Number of new employees',
+				backgroundColor: "#4EDDF8",
+				borderColor: "#4EDDF8",
+				borderWidth: 1,
+				data: [
+					3,2,3,2,5
+				]
+			}, {
+				label: '2) No. of staff resigned during the year',
+				backgroundColor: "#E39595",
+				borderColor: "#B4E395",
+				borderWidth: 1,
+				data: [
+					1,0,1,0,1
+				]
+			}, {
+				label: '3) Total no. of staff at the beginning of the year',
+				backgroundColor: "#B4E395",
+				borderColor: "#B4E395",
+				borderWidth: 1,
+				data: [
+					14,20,21,13,34
+				]
+			}, {
+				label: '4) Total no. of staff at the end of the year',
+				backgroundColor: "#F8C14E",
+				borderColor: "#F8C14E",
+				borderWidth: 1,
+				data: [
+					16,22,23,15,38
+				]
+			}, {
+				label: '5) Staff turnover rate',
+				backgroundColor: "#5DD4A9",
+				borderColor: "#5DD4A9",
+				borderWidth: 1,
+				data: [
+					6,0,4,0,3
+				]
+			}]
+		};
 
-  var labels4= ['Male','Female'];
-  var ctx4 = document.getElementById('question4').getContext('2d');
-  var pieChart4 = new Chart(ctx4, {
-    type: 'pie',
-    data : {
-      labels:labels4,
-      datasets: [{
-          data:[40,90],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Number of new employees',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
+    var barChartData2_1 = {
+			labels: ['Male', 'Female', '<= aged 40', '> aged 40', 'Total'],
+			datasets: [{
+				label: '5) Staff turnover rate',
+				backgroundColor: "#4EDDF8",
+				borderColor: "#4EDDF8",
+				borderWidth: 1,
+				data: [
+					6,0,4,0,3
+				]
+			}]
+		};
 
-  var labels5= ['Aged 40 or below','Aged 40 or above'];
-  var ctx5 = document.getElementById('question5').getContext('2d');
-  var pieChart5 = new Chart(ctx5, {
-    type: 'pie',
-    data : {
-      labels:labels5,
-      datasets: [{
-          data:[20,30],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Age of new employee',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
 
-  var labels6= ['Male','Female'];
-  var ctx6 = document.getElementById('question6').getContext('2d');
-  var pieChart6 = new Chart(ctx6, {
-    type: 'pie',
-    data : {
-      labels:labels6,
-      datasets: [{
-          data:[90,80],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'No. of staff resigned during the year',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
-
-  var labels7= ['Male','Female'];
-  var ctx7 = document.getElementById('question7').getContext('2d');
-  var pieChart7 = new Chart(ctx7, {
-    type: 'pie',
-    data : {
-      labels:labels7,
-      datasets: [{
-          data:[40,90],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Total no. of staff at the beginning of the year.',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
-
-  var labels8= ['Yes','No'];
-  var ctx8 = document.getElementById('question8').getContext('2d');
-  var pieChart8 = new Chart(ctx8, {
-    type: 'pie',
-    data : {
-      labels:labels8,
-      datasets: [{
-          data:[40,10],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Medical and Life Insurance Scheme.% of total staff cost.',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
-
-  var ctx81 = document.getElementById("question8-1").getContext('2d');
-  var myChart81 = new Chart(ctx81, {
-      type: 'bar',
-      data: {
-          labels: ["30", "40", "70", "100"],
-          datasets: [{
-              label: '# of Votes',
-              data: [10, 19, 8, 22],
-              backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(255, 206, 86, 0.2)',
-                  'rgba(100, 100, 86, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(255,99,132,1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(255, 206, 86, 1)',
-                  'rgba(100, 100, 86, 0.2)'
-              ],
-              borderWidth: 1
-          }]
-      },
-      options: {
-        legend:{
-          display:false
-        },
-        scales: {
-          yAxes: [{
-            display: true,
-            ticks: {
-              beginAtZero: true   // minimum value will be 0.
-            }
-          }]
-        }
-      }
-  });
-
-  var labels9= ['Managerial level','Officer’s level'];
-  var ctx9 = document.getElementById('question9').getContext('2d');
-  var pieChart9 = new Chart(ctx9, {
-    type: 'pie',
-    data : {
-      labels:labels9,
-      datasets: [{
-          data:[3,5],
-          backgroundColor: [
-            "rgba(255,99,132,1)",
-            "rgba(54, 162, 235, 1)"
-          ],
-      }],
-    },
-    options: {
-      title: {
-          display: true,
-          text: 'Average hours of training per year by Position Level',
-          fontSize: 20,
-          padding: 30,
-          fontColor: '#000'
-      }
-    }
-  });
-
-  var ctx10 = document.getElementById("question10").getContext('2d');
-  var myChart = new Chart(ctx10, {
-      type: 'bar',
-      data: {
-          labels: ["10", "8", "12"],
-          datasets: [{
-              label: '# of Votes',
-              data: [10, 19, 3],
-              backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(255, 206, 86, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(255,99,132,1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(255, 206, 86, 1)'
-              ],
-              borderWidth: 1
-          }]
-      },
-      options: {
+		var pieChart3 = {
+			type: 'pie',
+			data: {
+				datasets: [{
+					data: [
+            7,6,8,1,8,1,5,8,1,0
+					],
+					backgroundColor: [
+            "#4EDDF8",
+            "#B4E395",
+            "#F8C14E",
+            "#E39595",
+            "#9867F3",
+            "#DCDCDC",
+            "#384E95",
+            "#B4F84E",
+            "#5D4EF8",
+            "#A9F3C1"
+					],
+					label: 'Dataset 1'
+				}],
+				labels: [
+					'Medical and Life Insurance Scheme',
+					'Annual leave',
+					'Sick Leave',
+					'Compassionate leave',
+          'Marriage leave',
+          'Jury Service Leave',
+          'Maternity leave',
+          'Study leave',
+          'Pension fund',
+          'Study subsidy'
+				]
+			},
+			options: {
+				responsive: true,
         title: {
-            display: true,
-            text: 'Cost spent on Training and Education',
-            fontSize: 20,
-            padding: 30,
-            fontColor: '#000'
-        },
-        legend:{
-          display:false
-        },
-        scales: {
-          yAxes: [{
-            display: true,
-            ticks: {
-              beginAtZero: true   // minimum value will be 0.
-            }
-          }],
-          xAxes: [{
-            scaleLabel: {
-  						labelString: 'Hours',
-  						display: true,
-  					}
-          }]
+          display: true,
+          text: '3. Benefits',
+          fontSize: 20
         }
-      }
-  });
+			}
+		};
+
+    var barChartData4 = {
+      labels: ['Managerial level', 'Officer', 'Frontline Operations'],
+      datasets: [{
+        label: 'Male',
+        backgroundColor: "#4EDDF8",
+        borderColor: "#4EDDF8",
+        borderWidth: 1,
+        data: [
+          5,40,27
+        ]
+      }, {
+        label: 'Female',
+        backgroundColor: "#E39595",
+        borderColor: "#E39595",
+        borderWidth: 1,
+        data: [
+          12,75,89
+        ]
+      }]
+    };
+
+    var barChartData4_1 = {
+      labels: ['Managerial level', 'Officer', 'Frontline Operations', 'Cost spent on Training and Education'],
+      datasets: [{
+        label: '% Male',
+        backgroundColor: "#4EDDF8",
+        data: [
+          29,35,23,35
+        ]
+      }, {
+        label: '% Female',
+        backgroundColor: "#E39595",
+        data: [
+          71,65,77,65
+        ]
+      }]
+    };
+
+
+		window.onload = function() {
+			var ctx1 = document.getElementById('q_1').getContext('2d');
+			window.myBar = new Chart(ctx1, {
+				type: 'bar',
+				data: barChartData1,
+				options: {
+					title: {
+						display: true,
+						text: '1. Staff age  and gender distribution',
+            fontSize: 20
+					},
+					tooltips: {
+						mode: 'index',
+						intersect: false
+					},
+					responsive: true,
+					scales: {
+						xAxes: [{
+							stacked: true,
+						}],
+						yAxes: [{
+							stacked: true
+						}]
+					}
+				}
+			});
+
+      var ctx2 = document.getElementById('q_2').getContext('2d');
+			window.myBar = new Chart(ctx2, {
+				type: 'bar',
+				data: barChartData2,
+				options: {
+					responsive: true,
+					legend: {
+						position: 'top',
+					},
+					title: {
+            display: true,
+						text: '2. New employees hires and turnover rate',
+            fontSize: 20
+					}
+				}
+			});
+
+      var ctx2_1 = document.getElementById('q_2_1').getContext('2d');
+			window.myBar = new Chart(ctx2_1, {
+				type: 'bar',
+				data: barChartData2_1,
+				options: {
+					responsive: true,
+					legend: {
+						position: 'top',
+					},
+					title: {
+						display: true,
+						text: '5) Staff turnover rate',
+            fontSize: 20
+					}
+				}
+			});
+
+      var ctx3 = document.getElementById('q_3').getContext('2d');
+			window.myPie = new Chart(ctx3, pieChart3);
+
+      var ctx4 = document.getElementById('q_4').getContext('2d');
+      window.myBar = new Chart(ctx4, {
+        type: 'bar',
+        data: barChartData4,
+        options: {
+          responsive: true,
+          legend: {
+            position: 'top',
+          },
+          title: {
+            display: true,
+            text: '4. Training and Educaiton (hr)',
+            fontSize: 20
+          }
+        }
+      });
+
+      var ctx4_1 = document.getElementById('q_4_1').getContext('2d');
+      window.myBar = new Chart(ctx4_1, {
+        type: 'bar',
+        data: barChartData4_1,
+        options: {
+          responsive: true,
+          legend: {
+            position: 'top',
+          },
+          title: {
+            display: true,
+            text: '4. Training and Educaiton (hr)',
+            fontSize: 20
+          },
+					tooltips: {
+						mode: 'index',
+						intersect: false
+					},
+					responsive: true,
+					scales: {
+						xAxes: [{
+							stacked: true,
+						}],
+						yAxes: [{
+							stacked: true
+						}]
+					}
+        }
+      });
+		};
   </script>
   <style media="screen">
     body {

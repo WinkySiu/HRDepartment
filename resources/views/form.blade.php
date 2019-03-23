@@ -21,7 +21,7 @@
       <h4>1.  Staff age and gender distribution</h4>
     </div>
 
-    <div class="question">
+    <!-- <div class="question">
       <h5>Number of Managerial (e.g. CEO, Directors, Manager)<span class="must">*</span></h5>
       <span>Male: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <br>
@@ -43,14 +43,122 @@
       <br>
       <span>Female: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
+    </div> -->
+
+    <div class="question">
+      <h5>Number of Frontline Operations (e.g. F&B waitress, courier persons, cleaners/housekeepers, drivers, etc.)<span class="must">*</span></h5>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="col-title" rowspan="2"></th>
+            <th class="col-title" colspan="2">By Gender</th>
+            <th class="col-title" colspan="2">By Age</th>
+
+          </tr>
+          <tr>
+            <th class="col-title" scope="col">Male</th>
+            <th class="col-title" scope="col">Female</th>
+            <th class="col-title" scope="col"><40</th>
+            <th class="col-title" scope="col">>=40</th>
+            <th class="col-title" rowspan="1">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Managerial level</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Officer</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Frontline Operations</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
     </div>
+  </div>
 
   <div class="form-question">
     <div class="section">
-      <h4>2.  New Employees Hires</h4>
+      <h4>2.  New employees hires and turnover rate</h4>
     </div>
 
     <div class="question">
+      <h5>Number of Frontline Operations (e.g. F&B waitress, courier persons, cleaners/housekeepers, drivers, etc.)<span class="must">*</span></h5>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="col-title" scope="col"></th>
+            <th class="col-title" scope="col">Male</th>
+            <th class="col-title" scope="col">Female</th>
+            <th class="col-title" scope="col"><= aged 40</th>
+            <th class="col-title" scope="col">> aged 40</th>
+            <th class="col-title" rowspan="1">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Number of new employees</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+          <tr>
+            <th scope="row">No. of staff resigned during the year</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Total no. of staff at the beginning of the year</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Total no. of staff at the end of the year</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Staff turnover rate</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0</b></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+
+    <!-- <div class="question">
       <h5>Number of new employees:<span class="must">*</span></h5>
       <input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
@@ -70,10 +178,10 @@
       <br>
       <span>Aged 40 or above: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
-    </div>
+    </div> -->
   </div>
 
-  <div class="form-question">
+  <!-- <div class="form-question">
     <div class="section">
       <h4>3.  Turnover Rate</h4>
     </div>
@@ -107,11 +215,11 @@
       <span>above 40: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
     </div>
-  </div>
+  </div> -->
 
   <div class="form-question">
     <div class="section">
-      <h4>4.  Benefits</h4>
+      <h4>3.  Benefits</h4>
     </div>
     <div class="question">
       <h5>Percentage of employees receiving regular performance and career development reviews.<span class="must">*</span></h5>
@@ -300,10 +408,58 @@
 
   <div class="form-question">
     <div class="section">
-      <h4>5.  Training and Educaiton</h4>
+      <h4>4.  Training and Educaiton</h4>
     </div>
 
     <div class="question">
+      <h5>Number of Frontline Operations (e.g. F&B waitress, courier persons, cleaners/housekeepers, drivers, etc.)<span class="must">*</span></h5>
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="col-title" scope="col"></th>
+            <th class="col-title" scope="col">Male</th>
+            <th class="col-title" scope="col">Female</th>
+            <th class="col-title" scope="col">% Male</th>
+            <th class="col-title" scope="col">% Female</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Managerial level</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0%</b></td>
+            <td><b>0%</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Officer</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0%</b></td>
+            <td><b>0%</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Frontline Operations</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0%</b></td>
+            <td><b>0%</b></td>
+          </tr>
+          <tr>
+            <th scope="row">Cost spent on Training and Education</th>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><input type="number" name="" min="0" max="100" value="0" class＝"short-answer"></td>
+            <td><b>0%</b></td>
+            <td><b>0%</b></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+
+
+
+    <!-- <div class="question">
       <h5>Average hours of training per year by Position Level：<span class="must">*</span></h5>
       <span>Managerial level: </span><input type="number" name="" min="0" value="0" class＝"short-answer">
       <br>
@@ -360,7 +516,7 @@
       <h5>Cost spent on Training and Education<span class="must">*</span></h5>
       <input type="number" name="" min="0" value="0" class＝"short-answer">
       <hr>
-    </div>
+    </div> -->
   </div>
 
   <div class="form_confirm text-center">
@@ -383,7 +539,7 @@
   }
 
   .container {
-    width: 60%;
+    width: 80%;
     padding: 0 0 100px 0;
     background-color: white;
     height: 100vh;
